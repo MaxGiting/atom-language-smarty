@@ -1,6 +1,6 @@
 {
   "name": "language-smarty",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Smarty syntax highlighting and snippets. A direct convertion from Sublime Text",
   "repository": "https://github.com/MaxGiting/atom-language-smarty",
   "license": "MIT",
