@@ -1,6 +1,6 @@
 # language-smarty package
 
-Smarty syntax highlighting and snippets. A direct convertion from Sublime Text
+Smarty syntax highlighting and snippets. A direct conversion from Sublime Text
 
 ### Note
 This package like other Smarty grammars will not automatically set the grammar to Smarty for .tpl files. You must edit 1 line in the default HTML grammar to allow this grammar to be assigned automatically. 
@@ -11,11 +11,11 @@ You may still manually change the grammar to Smarty and it will work.
 
 1. Open Atom Settings -> Packages and search for language-html
 2. Click on it to view in Atom
-3. Click View Code and open /grammars/html.json
+3. Click View Code and open `/grammars/html.json`
 4. Remove "tpl", from the fileTypes array.
-5. Reload atom and now tpl files will be associated with this Smarty Grammar
+5. Reload Atom and now `tpl` files will be associated with this Smarty grammar
 
 
 ### Credit to thorade
-Who's walkthrough made it possible for me to convert the Sublime Text grammar over to Atom
+Whose walkthrough made it possible for me to convert the Sublime Text grammar over to Atom
 https://discuss.atom.io/t/convert-sublime-grammar-to-atom-grammar/14843
