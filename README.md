@@ -1,4 +1,4 @@
-# language-smarty package [![Version](https://img.shields.io/apm/v/language-smarty.svg)](https://https://atom.io/packages/language-smarty) [![Total Downloads](https://img.shields.io/apm/dm/language-smarty.svg)](https://atom.io/packages/language-smarty)
+# language-smarty package [![Version](https://img.shields.io/apm/v/language-smarty.svg)](https://atom.io/packages/language-smarty) [![Total Downloads](https://img.shields.io/apm/dm/language-smarty.svg)](https://atom.io/packages/language-smarty)
 
 Smarty syntax highlighting and snippets. A direct conversion from Sublime Text
 
