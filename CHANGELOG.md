@@ -1,3 +1,6 @@
+## 1.0.0 
+* Force .tpl association through index.coffee watching files being opened
+
 ## 0.4.0 - Update README.md and snippets
 * Removed extra new lines from snippets
 
