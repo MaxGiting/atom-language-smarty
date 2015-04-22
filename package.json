@@ -1,7 +1,7 @@
 {
   "name": "language-smarty",
   "version": "0.4.0",
-  "description": "Smarty syntax highlighting and snippets. A direct conversion from Sublime Text",
+  "description": "Adds Smarty syntax highlighting and snippets to .tpl files. A direct conversion from Sublime Text",
   "repository": "https://github.com/MaxGiting/atom-language-smarty",
   "license": "MIT",
   "engines": {

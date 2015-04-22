@@ -1,5 +1,5 @@
 fileTypes: [
-  "tpl"
+  "tpl" #To remove this association you will also need to edit index.coffee in the root folder.
 ]
 scopeName: "text.html.smarty"
 foldingStartMarker: "\\{%?"
