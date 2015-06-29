@@ -120,3 +120,15 @@
     body: '''
       {$${1:variable}|var_dump}$0
     '''
+  "literal-end":
+    prefix: "/literal"
+    body: '''
+      {/literal}$0
+    '''
+  literal:
+    prefix: "literal"
+    body: '''
+      {literal}
+      	$0
+      {/literal}
+    '''

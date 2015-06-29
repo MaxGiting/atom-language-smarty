@@ -1,3 +1,6 @@
+## 1.1.0
+* Add {literal} snippet
+
 ## 1.0.0 
 * Force .tpl association through index.coffee watching files being opened
 
