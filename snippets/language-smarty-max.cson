@@ -68,6 +68,18 @@
       	$0
       {/foreach}
     '''
+  for:
+    prefix: "for"
+    body: '''
+      {for $${1:min}=1 to $${2:max}}
+      	$0
+      {/for}
+    '''
+  "for-end":
+    prefix: "/for"
+    body: '''
+      {/for}$0
+    '''
   "if-end":
     prefix: "/if"
     body: '''

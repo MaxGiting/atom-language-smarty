@@ -1,3 +1,6 @@
+## 1.3.0
+* Add {for} snippet and syntax highlighting
+
 ## 1.2.0
 * Fix Failed to activate error
 
