@@ -1,125 +1,125 @@
-".text.html.smarty, .source.smarty":
-  assign:
-    prefix: "assign"
-    body: '''
+'.text.html.smarty, .source.smarty':
+ 'assign':
+   'prefix': 'assign'
+   'body': '''
       {assign var="${1:name}" value=${2:value}${4: scope=${3:scope}}}$0
     '''
-  break:
-    prefix: "break"
-    body: '''
+ 'break':
+   'prefix': 'break'
+   'body': '''
       {break}$0
     '''
-  "capture-end":
-    prefix: "/capture"
-    body: '''
+  'capture-end':
+   'prefix': "/capture"
+   'body': '''
       {/capture}$0
     '''
-  capture:
-    prefix: "capture"
-    body: '''
+ 'capture':
+   'prefix': 'capture'
+   'body': '''
       {capture ${2:name="${1:name}" }${4:assign="${3:variable}" }${6:append="${5:array_variable}"}}
       	$0
       {/capture}
     '''
-  case:
-    prefix: "case"
-    body: '''
+ 'case':
+   'prefix': 'case'
+   'body': '''
       {case ${1:case_name}}
           $0
           ${2:{break}}
     '''
-  comment:
-    prefix: "comment"
-    body: '''
+ 'comment':
+   'prefix': 'comment'
+   'body': '''
       {* ${1:comment} *}$0
     '''
-  debug:
-    prefix: "debug"
-    body: '''
+ 'debug':
+   'prefix': 'debug'
+   'body': '''
       {$${1:variable}|@debug_print_var}$0
     '''
-  default:
-    prefix: "default"
-    body: '''
+ 'default':
+   'prefix': 'default'
+   'body': '''
       {default}
           $0
     '''
-  else:
-    prefix: "else"
-    body: '''
+ 'else':
+   'prefix': 'else'
+   'body': '''
       {else}
       	$0
     '''
-  elseif:
-    prefix: "elseif"
-    body: '''
+ 'elseif':
+   'prefix': 'elseif'
+   'body': '''
       {elseif ${1:condition}}
       	$0
     '''
-  "foreach-end":
-    prefix: "/foreach"
-    body: '''
+  'foreach-end':
+   'prefix': "/foreach"
+   'body': '''
       {/foreach}$0
     '''
-  foreach:
-    prefix: "foreach"
-    body: '''
+ 'foreach':
+   'prefix': 'foreach'
+   'body': '''
       {foreach from=${1:collection} item=${2:item}${4: key=${3:key}}${6: name=${5:name}}}
       	$0
       {/foreach}
     '''
-  for:
-    prefix: "for"
-    body: '''
+ 'for':
+   'prefix': 'for'
+   'body': '''
       {for $${1:min}=1 to $${2:max}}
       	$0
       {/for}
     '''
-  "for-end":
-    prefix: "/for"
-    body: '''
+  'for-end':
+   'prefix': "/for"
+   'body': '''
       {/for}$0
     '''
-  "if-end":
-    prefix: "/if"
-    body: '''
+  'if-end':
+   'prefix': "/if"
+   'body': '''
       {/if}$0
     '''
-  if:
-    prefix: "if"
-    body: '''
+ 'if':
+   'prefix': 'if'
+   'body': '''
       {if ${1:condition}}
       	$0
       {/if}
     '''
-  ifelse:
-    prefix: "ifelse"
-    body: '''
+ 'ifelse':
+   'prefix': 'ifelse'
+   'body': '''
       {if ${1:condition}}
       	$2
       {else}
       	$3
       {/if}
     '''
-  include:
-    prefix: "include"
-    body: '''
+ 'include':
+   'prefix': 'include'
+   'body': '''
       {include file="${1:file}"${3: assign=${2:name}}${6: ${4:var1}=${5:value}}}$0
     '''
-  smarty:
-    prefix: "smarty"
-    body: '''
+ 'smarty':
+   'prefix': 'smarty'
+   'body': '''
       {${1:code}}$0
     '''
-  "switch-end":
-    prefix: "/switch"
-    body: '''
+  'switch-end':
+   'prefix': "/switch"
+   'body': '''
       {/switch}
       $0
     '''
-  switch:
-    prefix: "switch"
-    body: '''
+ 'switch':
+   'prefix': 'switch'
+   'body': '''
       {switch $${1:variable}}
           {case ${2:case_name}}
               $0
@@ -127,19 +127,19 @@
           ${4:{default}}
       {/switch}
     '''
-  vardump:
-    prefix: "dump"
-    body: '''
+ 'vardump':
+   'prefix': 'dump'
+   'body': '''
       {$${1:variable}|var_dump}$0
     '''
-  "literal-end":
-    prefix: "/literal"
-    body: '''
+  'literal-end':
+   'prefix': "/literal"
+   'body': '''
       {/literal}$0
     '''
-  literal:
-    prefix: "literal"
-    body: '''
+ 'literal':
+   'prefix': 'literal'
+   'body': '''
       {literal}
       	$0
       {/literal}
