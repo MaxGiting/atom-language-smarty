@@ -1,3 +1,7 @@
+## 1.4.0
+* Fix issue #6 'Maximum call stack size exceeded'
+* Merge snippets syntax changes
+
 ## 1.3.0
 * Add {for} snippet and syntax highlighting
 
