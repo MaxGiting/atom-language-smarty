@@ -65,7 +65,7 @@ repository:
         name: "constant.language.smarty"
       }
       {
-        match: "\\b(if|else|elseif|foreach|foreachelse|for|section|switch|case|break|default)\\b"
+        match: "\\b(php|if|else|elseif|foreach|foreachelse|for|section|switch|case|break|default)\\b"
         name: "keyword.control.smarty"
       }
       {

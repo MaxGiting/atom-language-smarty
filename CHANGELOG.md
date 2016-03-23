@@ -1,3 +1,6 @@
+## 1.5.0
+* Add php too syntax highlighting
+
 ## 1.4.0
 * Fix issue #6 'Maximum call stack size exceeded'
 * Merge snippets syntax changes
