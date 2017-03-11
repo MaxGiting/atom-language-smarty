@@ -4,5 +4,5 @@ module.exports =
         if pack.name == 'language-smarty'
           path = require 'path'
           atom.workspace.observeTextEditors (editor) ->
-              if path.extname(editor.getPath()) == ".tpl"
+              if editor.getPath() && path.extname(editor.getPath()) == ".tpl"
                 editor.setGrammar(atom.grammars.grammarForScopeName('text.html.smarty'))
