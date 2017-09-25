@@ -20,11 +20,11 @@ repository:
   blocks:
     patterns: [
       {
-        begin: "(\\{%?)"
+        begin: "(\\[\"\']{%?)"
         beginCaptures:
           "1":
             name: "punctuation.section.embedded.begin.smarty"
-        end: "(%?\\})"
+        end: "(%?\\}[\"\']?)"
         endCaptures:
           "1":
             name: "punctuation.section.embedded.end.smarty"
